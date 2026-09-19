@@ -1,4 +1,6 @@
-Esse repositório é referente ao  meus estudo referente a html.
-Hoje sou desenvolvedor Delphi, estou aprendendo  novas stacks para de se tornar um dev full stack.
-
-Nesse repositório vou deixar arquivos que utilizei no meu aprendizado.
+Esse repositório é referente ao  meus estudos referente a HTML.
+Hoje sou desenvolvedor Delphi, e resolvi aprimorar minhas stacks, resolvi iniciar por HTML. Então nesse repositório contem arquivos utilizado para aprendizados.
+Irei utilizar 
+- HTML
+- CSS
+- JavaScript
