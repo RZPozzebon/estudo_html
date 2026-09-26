@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#conteudo {
+    display: flex;
+    flex-direction: row;
+    /* header e main lado a lado */
+    flex: 1;
+    /* ocupa todo o espaço disponível, empurrando o footer pra baixo */
+}
+
+header {
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+
+#iconeFacebook {
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid hsl(220, 2%, 69%);
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/yB/r/83zWJdc6PJI.webp);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+}
+
+#iconeFacebook p {
+    font-size: 20px;
+}
+
+#iconeFacebook img {
+    display: flex;
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    margin: 5%;
+
+}
+
+main {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#loginAcesso {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+#loginAcesso img {
+    height: 25px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
