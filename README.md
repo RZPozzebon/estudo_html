@@ -4,3 +4,12 @@ Irei utilizar
 - HTML
 - CSS
 - JavaScript
+
+
+-----------------
+
+Esse projeto esta separado por branch's. Onde cada branch representa uma evolução do meu aprendizado.
+
+Branch's
+
+1- feature-Faceboook - Representa uma copia do pagina do facebook.
