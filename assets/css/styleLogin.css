@@ -1,6 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, sans-serif;
 }
 
 #divEsquerda nav {
@@ -9,6 +15,7 @@
 }
 
 #divEsquerda nav img {
+    width: 80px;
     height: 80px;
     margin-left: 40px;
     margin-top: 40px;
@@ -23,13 +30,25 @@ main {
 #divEsquerda {
     /* background-color: yellow; */
     display: flex;
+    flex-direction: column;
     width: 60%;
     border-right: 2px solid hsl(220, 2%, 69%);
     border-bottom: 2px solid hsl(220, 2%, 69%);
 }
 
 #divEsquerda img {
-    display: flex;
+    width: 90%;
+    flex: 1;
+    object-fit: fill;
+    min-height: 0;
+}
+
+#divEsquerda p {
+    font-size: 1.8rem;
+    align-self: flex-start;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    flex-shrink: 0;
 }
 
 #divDireita {
@@ -53,28 +72,68 @@ main {
     /* centraliza os inputs dentro do form */
     gap: 12px;
     /* espaço entre os elementos */
-    width: 300px;
+    width: 500px;
     /* largura fixa pro form não ficar largo demais */
 }
 
 #divDireita form h3 {
-    justify-content: left;
     align-self: flex-start;
 }
 
 #divDireita form input {
-    width: 300px;
-    height: 30px;
-    border-radius: 5px;
-    border-color: gray;
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+input:hover {
+    background-color: #e4e1e1;
+    cursor: pointer;
 }
 
 .BtnEntrar {
+    color: white;
     background-color: rgb(0 100 224);
-    width: 250px;
-    height: 25px;
-    border-radius: 5px;
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
     border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.BtnEntrar:hover {
+    background-color: #75a4eb;
+    cursor: pointer;
+}
+
+.CriarConta {
+    width: 500px;
+    height: 40px;
+    margin-top: 200px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(42, 131, 214);
+    border-color: rgb(42, 131, 214);
+    color: rgb(42, 131, 214);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CriarConta:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+#divDireita form a {
+    font-size: 16px;
+    text-decoration: none;
+    color: gray;
 }
 
 #divDireita form img {
@@ -88,12 +147,9 @@ footer {
 }
 
 footer ul {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
     margin-top: 10px;
     display: flex;
     justify-content: center;
     gap: 20px;
     list-style: none;
-
 }
