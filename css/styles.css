@@ -1,0 +1,35 @@
+/* SELETORES */
+
+/* TODOS */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* TAG */
+h1{
+    color: orange;
+}
+p{
+    color: red;
+}
+
+body div section p,
+body div section h1{
+    color: blue;
+}
+
+/* CLASSES */
+.heading{
+    color: purple;
+    font-style: italic;
+}
+
+.color-red{
+    color: red;
+    /* font-style: italic;     */
+}
+
+
+
+
