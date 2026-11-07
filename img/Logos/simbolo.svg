@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6 9 188 82" width="188" height="82" role="img" aria-labelledby="t">
+  <title id="t">Infinity Pozzebon Tech</title>
+  <defs>
+    <linearGradient id="ipt-grad-simbolo" gradientUnits="userSpaceOnUse" x1="12" y1="50" x2="188" y2="50">
+      <stop offset="0" stop-color="#22B8D6"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+  </defs>
+  <path d="M100 50 C115 25 135 15 150 15 C172 15 188 30 188 50 C188 70 172 85 150 85 C135 85 115 75 100 50 C85 25 65 15 50 15 C28 15 12 30 12 50 C12 70 28 85 50 85 C65 85 85 75 100 50 Z" fill="none" stroke="url(#ipt-grad-simbolo)" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="100" cy="50" r="6" fill="#8B5CF6"/>
+</svg>
