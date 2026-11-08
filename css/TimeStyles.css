@@ -1,0 +1,9 @@
+.accordion-item {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+/* item aberto: o botão não tem a classe "collapsed" */
+.accordion-item:has(.accordion-button:not(.collapsed)) {
+    opacity: 1;
+}

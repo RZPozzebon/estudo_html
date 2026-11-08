@@ -8,6 +8,34 @@ body {
     /* background-attachment: fixed; */
 }
 
+header {
+    height: 100px;
+}
+
+footer {
+    height: 0px;
+}
+
+footer #elementos-footer {
+    border: #161F42 solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+main {
+    flex: 1;
+}
+
+#home .container {
+    padding-top: 160px;
+}
+
+main section h1 {
+    color: #8B5CF6;
+    /* color: #22D3EE; */
+    font-size: 2rem .10rem;
+}
+
 .row {
     margin: 0;
 }
@@ -30,6 +58,10 @@ header .navbar {
 .navbar-container {
     padding-top: 0;
     padding-bottom: 0;
+}
+
+#nav-container {
+    padding: 1rem .8rem;
 }
 
 #navbar-logo {
